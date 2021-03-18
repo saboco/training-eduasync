@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 VoidMethodWithoutAwaits", "01 VoidMethodWithoutAwaits\01 VoidMethodWithoutAwaits.csproj", "{FC3C9EF9-1019-4FBF-989B-231F0F7CFC2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01 VoidMethodWithoutAwaits", "01 VoidMethodWithoutAwaits\01 VoidMethodWithoutAwaits.csproj", "{FC3C9EF9-1019-4FBF-989B-231F0F7CFC2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 TasksMethodsWithoutAwait", "02 TasksMethodsWithoutAwait\02 TasksMethodsWithoutAwait.csproj", "{E59ABCB4-74A2-43D9-B5FD-C6583EFDA5A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 ValueTasksMethodsWithoutAwait", "03 ValueTasksMethodsWithoutAwait\03 ValueTasksMethodsWithoutAwait.csproj", "{E8263C1D-1D3D-4432-85AC-25EFED55D59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 ValueTasksMethodsWithAwait", "04 ValueTasksMethodsWithAwait\04 ValueTasksMethodsWithAwait.csproj", "{323E21EE-B4D4-4003-8867-A7BFAE36A6D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{FC3C9EF9-1019-4FBF-989B-231F0F7CFC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3C9EF9-1019-4FBF-989B-231F0F7CFC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3C9EF9-1019-4FBF-989B-231F0F7CFC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59ABCB4-74A2-43D9-B5FD-C6583EFDA5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59ABCB4-74A2-43D9-B5FD-C6583EFDA5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59ABCB4-74A2-43D9-B5FD-C6583EFDA5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59ABCB4-74A2-43D9-B5FD-C6583EFDA5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8263C1D-1D3D-4432-85AC-25EFED55D59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8263C1D-1D3D-4432-85AC-25EFED55D59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8263C1D-1D3D-4432-85AC-25EFED55D59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8263C1D-1D3D-4432-85AC-25EFED55D59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323E21EE-B4D4-4003-8867-A7BFAE36A6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323E21EE-B4D4-4003-8867-A7BFAE36A6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323E21EE-B4D4-4003-8867-A7BFAE36A6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323E21EE-B4D4-4003-8867-A7BFAE36A6D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
